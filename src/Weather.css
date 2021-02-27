@@ -29,10 +29,8 @@ body {
   list-style: none;
 }
 
-.Weather img {
+.Weather canvas {
   margin-right: 10px;
-  height: 65px;
-  width: 65px;
   display: inline-block;
 }
 
