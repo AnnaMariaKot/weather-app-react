@@ -13,7 +13,7 @@ export default function WeatherTemperature(props) {
   }
 
   function fahrenheit() {
-    return props.celcius * 9 + 32;
+    return (props.celcius * 9) / 5 + 32;
   }
 
   if (unit === "celcius") {
